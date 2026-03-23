@@ -1,0 +1,13 @@
+<div class="container-dark">
+  <h1>Contador</h1>
+  
+  <div class="display-valor">
+    <small>VALOR ATUAL</small>
+    <span [class.negativo]="contador < 0">{{ contador }}</span>
+  </div>
+
+  <div class="botoes-grupo">
+    <button (click)="diminuir()" class="btn-danger">Diminuir</button>
+    <button (click)="aumentar()" class="btn-success">Aumentar</button>
+  </div>
+</div>

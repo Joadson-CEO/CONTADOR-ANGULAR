@@ -1,0 +1,100 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #121212; 
+}
+
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212; 
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+.container-dark {
+  background-color: #1e1e1e; 
+  padding: 40px;
+  border-radius: 50px;
+  box-shadow: 0 10px 30px rgba(212, 208, 208, 0.199);
+  text-align: center;
+  border: 1px solid #7cd3e9;
+  width: 500px;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  
+}
+
+.display-valor {
+  background: #252525;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+small {
+  color: #888;
+  display: block;
+  font-size: 0.7rem;
+  margin-bottom: 5px;
+}
+
+span {
+  font-size: 5rem;
+  font-weight: 800;
+  color: #01f2fa; 
+  transition: color 0.3s ease;
+}
+
+.negativo {
+  color: #ff4c4c;
+}
+
+.botoes-grupo {
+  display: flex;
+  gap: 15px;
+}
+
+button {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.1s, opacity 0.2s;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.btn-success {
+  background-color: #00ecfd;
+  color: #121212;
+}
+
+.btn-danger {
+  background-color: #ff4c4c;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
